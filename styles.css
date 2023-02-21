@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0rem;
+    display: flex;
+    background-color: #144661;
+    align-items: center;
+}
+
+nav h2{
+    padding: 0 1rem;
+    color:white;
+}
+
+nav ul{
+    margin-left:auto;
+    float: right;
+}
+nav li{
+    padding: 0 2rem;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+main{
+    z-index: 1;
+    position:relative;
+    top: 4.4rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.MissionStatement{
+
+    width:100%;
+    max-width: 60rem;
+    max-height: 40rem;
+    height: 45rem;
+    background-image: url(./images/back.jpeg);
+}
